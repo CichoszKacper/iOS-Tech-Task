@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B228EA6B2880B30B00B35F16 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228EA692880B30B00B35F16 /* LoginViewController.swift */; };
-		B228EA6C2880B30B00B35F16 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B228EA6A2880B30B00B35F16 /* Login.storyboard */; };
+		653CD2C52BBA1553000D9884 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653CD2C42BBA1553000D9884 /* AppCoordinator.swift */; };
+		653CD2C92BBA17A2000D9884 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653CD2C72BBA17A2000D9884 /* AccountViewController.swift */; };
+		653CD2CA2BBA17A2000D9884 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 653CD2C82BBA17A2000D9884 /* AccountViewController.xib */; };
+		653CD2CC2BBA20EC000D9884 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653CD2CB2BBA20EC000D9884 /* UIViewController + Extension.swift */; };
+		65A1F5902BB9A1DB00E7B31C /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1F58F2BB9A1DB00E7B31C /* NavigationController.swift */; };
+		65A1F5932BB9A26100E7B31C /* ModelledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1F5922BB9A26100E7B31C /* ModelledViewController.swift */; };
+		65A1F5952BB9A28100E7B31C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1F5942BB9A28100E7B31C /* ViewModel.swift */; };
+		65A1F5972BB9A29C00E7B31C /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1F5962BB9A29C00E7B31C /* ViewModelProtocol.swift */; };
+		65A1F5992BB9A30900E7B31C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1F5982BB9A30900E7B31C /* TabBarController.swift */; };
+		65A1F59C2BB9A3B300E7B31C /* Thread + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1F59B2BB9A3B300E7B31C /* Thread + Extension.swift */; };
+		65A1F59E2BB9A5F800E7B31C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1F59D2BB9A5F800E7B31C /* LoginViewModel.swift */; };
+		65A1F5A12BB9A97400E7B31C /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1F5A02BB9A97400E7B31C /* SessionService.swift */; };
+		65A1F5A42BB9CA4D00E7B31C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1F5A22BB9CA4D00E7B31C /* LoginViewController.swift */; };
+		65A1F5A52BB9CA4D00E7B31C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A1F5A32BB9CA4D00E7B31C /* LoginViewController.xib */; };
 		B26EF47828881E7F003BFDF2 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = B26EF47728881E7F003BFDF2 /* Networking */; };
 		B2CA46CC279350880041B3A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CA46CB279350880041B3A5 /* AppDelegate.swift */; };
 		B2CA46D52793508A0041B3A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CA46D42793508A0041B3A5 /* Assets.xcassets */; };
@@ -29,8 +41,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B228EA692880B30B00B35F16 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		B228EA6A2880B30B00B35F16 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		653CD2C42BBA1553000D9884 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		653CD2C72BBA17A2000D9884 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		653CD2C82BBA17A2000D9884 /* AccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		653CD2CB2BBA20EC000D9884 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		65A1F58F2BB9A1DB00E7B31C /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		65A1F5922BB9A26100E7B31C /* ModelledViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelledViewController.swift; sourceTree = "<group>"; };
+		65A1F5942BB9A28100E7B31C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		65A1F5962BB9A29C00E7B31C /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		65A1F5982BB9A30900E7B31C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		65A1F59B2BB9A3B300E7B31C /* Thread + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thread + Extension.swift"; sourceTree = "<group>"; };
+		65A1F59D2BB9A5F800E7B31C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		65A1F5A02BB9A97400E7B31C /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		65A1F5A22BB9CA4D00E7B31C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		65A1F5A32BB9CA4D00E7B31C /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		B24EED92288ED5740016C233 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
 		B2CA46C8279350880041B3A5 /* MoneyBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CA46CB279350880041B3A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +86,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		653CD2C62BBA1733000D9884 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				653CD2C72BBA17A2000D9884 /* AccountViewController.swift */,
+				653CD2C82BBA17A2000D9884 /* AccountViewController.xib */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		65A1F58D2BB9A11B00E7B31C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				65A1F59D2BB9A5F800E7B31C /* LoginViewModel.swift */,
+				65A1F5A22BB9CA4D00E7B31C /* LoginViewController.swift */,
+				65A1F5A32BB9CA4D00E7B31C /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		65A1F58E2BB9A1CB00E7B31C /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				65A1F58F2BB9A1DB00E7B31C /* NavigationController.swift */,
+				65A1F5982BB9A30900E7B31C /* TabBarController.swift */,
+				653CD2C42BBA1553000D9884 /* AppCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		65A1F5912BB9A25000E7B31C /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				65A1F5922BB9A26100E7B31C /* ModelledViewController.swift */,
+				65A1F5942BB9A28100E7B31C /* ViewModel.swift */,
+				65A1F5962BB9A29C00E7B31C /* ViewModelProtocol.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		65A1F59A2BB9A38700E7B31C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				65A1F59B2BB9A3B300E7B31C /* Thread + Extension.swift */,
+				653CD2CB2BBA20EC000D9884 /* UIViewController + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		65A1F59F2BB9A94C00E7B31C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				65A1F5A02BB9A97400E7B31C /* SessionService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		B2CA46BF279350880041B3A5 = {
 			isa = PBXGroup;
 			children = (
@@ -84,8 +164,12 @@
 		B2CA46CA279350880041B3A5 /* MoneyBox */ = {
 			isa = PBXGroup;
 			children = (
-				B228EA6A2880B30B00B35F16 /* Login.storyboard */,
-				B228EA692880B30B00B35F16 /* LoginViewController.swift */,
+				65A1F59F2BB9A94C00E7B31C /* Networking */,
+				65A1F59A2BB9A38700E7B31C /* Extensions */,
+				65A1F5912BB9A25000E7B31C /* MVVM */,
+				65A1F58E2BB9A1CB00E7B31C /* Navigation */,
+				65A1F58D2BB9A11B00E7B31C /* Login */,
+				653CD2C62BBA1733000D9884 /* Account */,
 				B2CA46CB279350880041B3A5 /* AppDelegate.swift */,
 				B2CA46D42793508A0041B3A5 /* Assets.xcassets */,
 				B2CA46D62793508A0041B3A5 /* LaunchScreen.storyboard */,
@@ -206,10 +290,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A1F5A52BB9CA4D00E7B31C /* LoginViewController.xib in Resources */,
 				B2CA46D82793508A0041B3A5 /* LaunchScreen.storyboard in Resources */,
 				B2CA47712794D8E50041B3A5 /* LoginSucceed.json in Resources */,
 				B2CA46D52793508A0041B3A5 /* Assets.xcassets in Resources */,
-				B228EA6C2880B30B00B35F16 /* Login.storyboard in Resources */,
+				653CD2CA2BBA17A2000D9884 /* AccountViewController.xib in Resources */,
 				B2CA47B42796052F0041B3A5 /* Accounts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,8 +313,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				653CD2C52BBA1553000D9884 /* AppCoordinator.swift in Sources */,
+				65A1F5952BB9A28100E7B31C /* ViewModel.swift in Sources */,
+				653CD2C92BBA17A2000D9884 /* AccountViewController.swift in Sources */,
+				65A1F5932BB9A26100E7B31C /* ModelledViewController.swift in Sources */,
+				65A1F5972BB9A29C00E7B31C /* ViewModelProtocol.swift in Sources */,
+				65A1F59C2BB9A3B300E7B31C /* Thread + Extension.swift in Sources */,
 				B2CA46CC279350880041B3A5 /* AppDelegate.swift in Sources */,
-				B228EA6B2880B30B00B35F16 /* LoginViewController.swift in Sources */,
+				65A1F5992BB9A30900E7B31C /* TabBarController.swift in Sources */,
+				65A1F5A12BB9A97400E7B31C /* SessionService.swift in Sources */,
+				65A1F5902BB9A1DB00E7B31C /* NavigationController.swift in Sources */,
+				65A1F5A42BB9CA4D00E7B31C /* LoginViewController.swift in Sources */,
+				653CD2CC2BBA20EC000D9884 /* UIViewController + Extension.swift in Sources */,
+				65A1F59E2BB9A5F800E7B31C /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,21 +482,20 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7DM2UT7C8G;
+				DEVELOPMENT_TEAM = 7265U2P6NP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MoneyBox/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Login;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = moneybox;
+				PRODUCT_BUNDLE_IDENTIFIER = kacper.cichosz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -415,21 +510,20 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7DM2UT7C8G;
+				DEVELOPMENT_TEAM = 7265U2P6NP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MoneyBox/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Login;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = moneybox;
+				PRODUCT_BUNDLE_IDENTIFIER = kacper.cichosz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
